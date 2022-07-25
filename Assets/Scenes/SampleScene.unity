@@ -722,8 +722,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0.1
+  MaxDistance: 55
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -758,7 +758,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -850,8 +850,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0.1
+  MaxDistance: 55
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -886,7 +886,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1062,8 +1062,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0.1
+  MaxDistance: 55
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -1098,7 +1098,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1531,7 +1531,7 @@ MonoBehaviour:
   - {fileID: 623280202}
   - {fileID: 1542275963}
   - {fileID: 449471452}
-  mapSize: {x: 0, y: 0}
+  mapSize: {x: 5, y: 5}
 --- !u!82 &1277732236
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1544,7 +1544,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 28338d097195bee41828071161a8a94d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.732
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1823,8 +1823,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 0.1
+  MaxDistance: 55
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -1859,7 +1859,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0

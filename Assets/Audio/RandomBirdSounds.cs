@@ -13,12 +13,12 @@ public class RandomBirdSounds : MonoBehaviour
     private void FixedUpdate()
     {
         randomizer = Random.Range(1, 100);
-        if (randomizer == 97)
+        if (randomizer >= 97)
         {
             index = Random.Range(0, birdSquawks.Length);
             birdSquawk = birdSquawks[index];
-            birdSquawk.transform.position = new Vector3 ((Random.Range(-mapSize.x, mapSize.x)), (Random.Range(5, 35)), (Random.Range(-mapSize.y, mapSize.y)));
-            birdSquawk.pitch = Random.Range(0.7f, 1.15f);
+            birdSquawk.transform.position = new Vector3 ((Random.Range(-mapSize.x, mapSize.x)), (Random.Range(2, 12)), (Random.Range(-mapSize.y, mapSize.y)));
+            birdSquawk.pitch = Random.Range(0.8f, 1.15f);
             birdSquawk.Play();
         }
     }
